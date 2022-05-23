@@ -1,0 +1,14 @@
+
+# Where to save the backups to
+data_directory: "/home/backups"
+
+# MinIO configuration
+minio_settings:
+  # The buckets to back up
+  buckets:
+    - "example1"
+    - "example2"
+  endpoint: "localhost:9000"
+  access_key: "minio"
+  secret_key: "minio123"
+  use_ssl: false
