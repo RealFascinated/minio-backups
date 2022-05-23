@@ -1,4 +1,4 @@
-# minio-backups
+# Minio Backups
 Simple program that creates a backup/copy of the files from the minio host using the given buckets.
 
 # Install
